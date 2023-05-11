@@ -3,8 +3,10 @@ import Cell from '../Cell/Cell'
 
 export default function Row() {
   return (
-    <tr>
-      <Cell />
-    </tr>
+    <tbody>
+      <tr>
+        <Cell />
+      </tr>
+    </tbody>
   )
 }
