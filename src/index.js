@@ -6,6 +6,8 @@ import Board from './Components/Board/Board';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Board />
+    <div className='board'>
+      <Board />
+    </div>
   </React.StrictMode>
 );
