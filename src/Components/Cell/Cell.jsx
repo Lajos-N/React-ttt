@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Cell() {
   return (
-    <div>
-      Cell
-      Cell
-      Cell
-    </div>
+    <>
+      <td>cellea</td>
+      <td>cellea</td>
+      <td>cellea</td>
+    </>
   )
 }

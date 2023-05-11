@@ -10,15 +10,11 @@ export default function Board() {
 
   return (
     <>
-    <div>
-      <Row />
-    </div>
-    <div>
-      <Row />
-    </div>
-    <div>
-      <Row />
-    </div>
+      <table>
+        <Row />
+        <Row />
+        <Row />
+      </table>
     </>
   )
 }
